@@ -17,7 +17,11 @@ const Navbar = ({ search, setSearch, genre, setGenre }) => {
           value={search}
           placeholder="Search anime..."
           className="search-input bg-transparent text-gray-200 outline-none w-full"
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value);
+
+            navigate("/");
+          }}
         />
       </div>
 
