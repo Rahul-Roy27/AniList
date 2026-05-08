@@ -1,0 +1,45 @@
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #1a1a1a;
+}
+
+.logo {
+  color: #ff4c29;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+
+  border: none;
+  outline: none;
+
+  border-radius: 5px;
+}
+
+.dropdown {
+  padding: 10px;
+  border-radius: 5px;
+} */ 
+
+
+@import "tailwindcss";
